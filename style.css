@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    margin: 0; /* Set to zero for more control in each section */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(12, 12, 12); /* ALmost black, but not really is a little bit nicer for the eyes. */
+}
+header {
+    padding: 8px;
+}
+
+main {
+    padding: 8px;
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1, h2, h3, h4 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.linklist ul {
+    list-style-type: none;
+    display: flex;
+    justify-content:space-evenly;
+}
+a:link, a:visited, a:active {
+    color: rgb(56, 2, 35);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer {
+    padding: 8px;
+    height: 50px;
+    color: honeydew;
+    background-color: rgb(56, 2, 35);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+}
